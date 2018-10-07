@@ -1,4 +1,4 @@
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: permamodel
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/mcflugen/permamodel/archive/v{{ version }}.tar.gz
-  sha256: 7e53d3212aa62f51ef48e2d75d762350bfec90bef1bdc2678a97dcb538c71cee
+  sha256: baee1399c443acccc9b11027b0a72d5cacb9a096978c382a5d25b2b18485d9de
 
 build:
   number: 0
