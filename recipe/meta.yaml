@@ -9,16 +9,16 @@ source:
   sha256: 3c6437bb2abf710fe4048330d0cb0992014a3e37b058919b7135a39395ff55a5
 
 build:
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
   noarch: python
 
 requirements:
   host:
-    - python
+    - python >=3.9
     - pip
   run:
-    - python
+    - python >=3.9
     - numpy
     - scipy
     - netcdf4
@@ -57,3 +57,4 @@ about:
 extra:
   recipe-maintainers:
     - mcflugen
+    - mdpiper
