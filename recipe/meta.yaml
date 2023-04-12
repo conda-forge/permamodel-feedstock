@@ -10,8 +10,8 @@ source:
   sha256: 1d1a1925d1d4b2253363f8cc5404597520e3dcd33f327341e3f80adc9344d8a4
 
 build:
-  number: 1
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
@@ -23,8 +23,11 @@ requirements:
     - numpy
     - scipy
     - netcdf4
+    - xarray
     - affine
     - python-dateutil
+    - pyyaml
+    - toml
 
 test:
   imports:
