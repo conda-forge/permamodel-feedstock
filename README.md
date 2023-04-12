@@ -3,7 +3,7 @@ About permamodel-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/permamodel-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/permamodel/permamodel
+Home: https://permamodel.github.io/
 
 Package license: MIT
 
@@ -11,21 +11,13 @@ Summary: A collection of numerical permafrost models.
 
 Development: https://github.com/permamodel/permamodel
 
-PermaModel project enables the broader use of permafrost models and
-consists of several permafrost models representing a range of
-capability and complexity. The PermaModel provides easy online access to
-everyone who want to use permafrost models, but lack the expertise and
-resources to develop them. It includes multiple sets of sample inputs
-representing a variety of conditions and locations to enable immediate
-use of any out of three permafrost models. It is built on the Community
-Surface Dynamics Modeling System (CSDMS) Modeling Framework platform.
-CSDMS provides an on-line environment where users can link and run models
-from multiple Earth science disciplines. We hope that the simple user
-interfaces, easy online access, open source models, and quick visualization
-tools can make permafrost models accessible to a broad audience well
-beyond the permafrost research community. These new easy-to-use modeling
-tools could be useful to wide-range of users beyond the research community,
-such as educators, students, and policy-makers.
+Permamodel is a collection of numerical permafrost models with a range of
+capability and complexity. Permamodel includes multiple sets of sample
+inputs representing a variety of conditions and locations. The Permamodel
+project is intended to facilitate the broader use of permafrost models. We
+hope that the simple Python interfaces and open source licensing can make
+permafrost models accessible to a broad audience well beyond the permafrost
+research community, such as educators, students, and policy makers.
 
 
 Current build status
