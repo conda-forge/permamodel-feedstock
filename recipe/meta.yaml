@@ -1,5 +1,5 @@
 {% set name = "permamodel" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5f6f430135b2d59a07764a04254e91cb20fccdea79f208a2b21b324d043930a1
+  sha256: 0ba917f910c627711cb8f29eec9aa769f8e7d9bb7414917e199087596eae6541
 
 build:
   number: 0
