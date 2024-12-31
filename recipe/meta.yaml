@@ -6,20 +6,20 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 0ba917f910c627711cb8f29eec9aa769f8e7d9bb7414917e199087596eae6541
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - numpy
     - scipy
     - netcdf4
@@ -30,6 +30,8 @@ requirements:
     - toml
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - permamodel
     - permamodel.components
